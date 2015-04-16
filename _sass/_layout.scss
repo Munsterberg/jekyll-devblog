@@ -1,5 +1,12 @@
 
 
+a {
+
+  &:hover {
+    color: $accent;
+  }
+}
+
 .site-title {
     font-size: 18px;
     line-height: 56px;
@@ -25,6 +32,10 @@
 .site-title {
   color: $font-secondary-color;
   font-weight: 200;
+
+  &:hover {
+    color: $accent;
+  }
 }
 
 .site-nav {
@@ -41,7 +52,7 @@
         line-height: $base-line-height;
 
         &:hover {
-            color: $primary-color;
+            color: $accent;
         }
 
         // Gaps between nav items, but not on the first one
@@ -127,6 +138,10 @@
 .post-link {
     display: block;
     font-size: 24px;
+
+  &:hover {
+    color: $accent;
+  }
 }
 
 
