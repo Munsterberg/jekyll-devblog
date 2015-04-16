@@ -19,7 +19,12 @@
 }
 
 .site-header {
-    background-color: $primary-color-dark;
+    background-color: transparent;
+}
+
+.site-title {
+  color: $font-secondary-color;
+  font-weight: 200;
 }
 
 .site-nav {
@@ -32,7 +37,7 @@
     }
 
     .page-link {
-        color: #ffffff;
+        color: #000000;
         line-height: $base-line-height;
 
         &:hover {
